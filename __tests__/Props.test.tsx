@@ -24,3 +24,7 @@ describe('Post component with given props', () => {
     //screen.debug()
   })
 })
+
+/*
+mapで展開されたPostオブジェクト(テストではdummyオプジェクト）がPostコンポーネントにわたっているか確認する。
+*/
