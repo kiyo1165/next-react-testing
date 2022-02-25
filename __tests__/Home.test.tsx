@@ -10,5 +10,5 @@ it('Should render hello text', () => {
   //   screen.debug()
 
   //HomeコンポーネントにHello Nextjs'があるか確認。
-  expect(screen.getByText('Hello Nextjs')).toBeInTheDocument()
+  expect(screen.getByText('Welcome to Next JS')).toBeInTheDocument()
 })
