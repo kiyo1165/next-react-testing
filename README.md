@@ -3,6 +3,15 @@ https://github.com/GomaGoma676/nextjs-testing
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+## テストライブラリ
+
+ぺージ遷移のテスト
+
+`$ npm i next-page-tester`
+```json
+"next-page-tester": "^0.30.0",
+```
 ## Getting Started
 
 First, run the development server:
