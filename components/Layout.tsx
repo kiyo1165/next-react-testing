@@ -61,7 +61,9 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Nextjs' }) => {
           </div>
         </nav>
       </header>
-      <main>{children}</main>
+      <main className="flex flex-1 justify-center items-center flex-col w-screen">
+        {children}
+      </main>
       <footer className="w-full h-12 flex justify-center items-center border-t">
         <a
           className="flex items-center"
