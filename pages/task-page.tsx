@@ -21,7 +21,7 @@ const TaskPage: React.FC<STATICPROPS> = ({ staticTasks }) => {
     fallbackData: staticTasks, //SWRの初期データをセット
     revalidateOnMount: true,
   })
-  if (error) return <span>Error!</span>
+  if (error) return <span>Eror!</span>
 
   return (
     <Layout title="Todos">
